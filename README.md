@@ -37,7 +37,7 @@ gulp.task('minify-cshtml', function(){
       whitespace: true      // Remove white-space
       replaceHash: /hash/ig // Replace 'hash' to datetime string
     }))
-    .pipe(header('\ufeff')) // Fixed encode issue
+    .pipe(header('\ufeff')) // Fixed encode issue (可解決中文亂碼問題)
     .pipe(gulp.dest('./Views/Shared/'));
 });
 ```
