@@ -32,7 +32,7 @@ gulp.task('minify-cshtml', function(){
     .pipe(rename('_Layout.cshtml')) // File Rename
     .pipe(minifyCshtml({
       htmlComments: true,   // Remove HTML comments <!-- -->
-      jsComments: true,     // Remove JS comments <!-- -->
+      jsComments: true,     // Remove JS comments /* */
       razorComments: true,  // Remove Razor comments @* *@
       whitespace: true      // Remove white-space
       replaceHash: /hash/ig // Replace 'hash' to datetime string
