@@ -42,4 +42,5 @@ gulp.task('minify-cshtml', function(){
 });
 ```
 
-[npm-url]: https://npmjs.org/package/
+[npm-url]: https://www.npmjs.com/package/gulp-cshtml-minifier
+
