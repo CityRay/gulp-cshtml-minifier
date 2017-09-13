@@ -1,0 +1,45 @@
+{
+  "name": "gulp-cshtml-minifier",
+  "main": "index.js",
+  "author": {
+    "name": "RayLin<ray102467@gmail.com>",
+    "url": "https://github.com/CityRay/"
+  },
+  "bugs": {
+    "url": "https://github.com/CityRay/gulp-cshtml-minifier/issues"
+  },
+  "dependencies": {
+    "readable-stream": "^2.3.3",
+    "replacestream": "^4.0.2"
+  },
+  "deprecated": false,
+  "description": "Minify ASP.NET Razor View (.cshtml files) & REPLACE HASH",
+  "devDependencies": {
+    "concat-stream": "^1.5.0",
+    "mocha": "^2.1.0",
+    "should": "^7.0.1",
+    "vinyl": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/CityRay/gulp-cshtml-minifier",
+  "keywords": [
+    "gulpplugin",
+    "minify",
+    "html",
+    "cshtml",
+    "asp.net",
+    "razor",
+    "mvc"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CityRay/gulp-cshtml-minifier.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.0.1"
+}
