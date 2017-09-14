@@ -42,5 +42,39 @@ gulp.task('minify-cshtml', function(){
 });
 ```
 
+## API
+
+gulp-cshtml-minifier can be called with an optional 'options' object.
+
+### minifyCshtml(options)
+
+#### options
+Type: `Object`
+
+##### options.htmlComments
+Type: `boolean`
+Default: `false`
+
+Remove HTML comments `<!-- -->`
+
+##### options.jsComments
+Type: `boolean`
+Default: `false`
+
+Remove Javascript comments `/* */`
+
+##### options.razorComments
+Type: `boolean`
+Default: `true`
+
+Remove Razor comments `@* *@`
+
+##### options.whitespace
+Type: `boolean`
+Default: `true`
+
+Remove white-space between angle brackets `> <`
+
+
 [npm-url]: https://www.npmjs.com/package/gulp-cshtml-minifier
 [npm-image]: https://badge.fury.io/js/gulp-minify-cshtml.svg

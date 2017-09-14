@@ -35,10 +35,10 @@ module.exports = function(options) {
           }
 
           if ((options !== undefined) && options.jsComments) {
-            // <!--    - Match the start of the comment.
+            // /\*    - Match the start of the comment.
             // [\s\S]* - Match anything in between.
             // ?       - Or nothing at all.
-            // -->     - Match the end of the comment.
+            // \*\/     - Match the end of the comment.
             // g       - Match globally.
             temp = temp.replace(/\/\*[\s\S]*?\*\//g, '');
           }
@@ -65,6 +65,7 @@ module.exports = function(options) {
             temp = temp.replace(options.replaceHash, new Date().getTime());
           }
 
+          // Replace All Newline
           temp = temp.replace(/\s*\n\s*/gi, '\n');
 
           file.contents = new Buffer(temp);
