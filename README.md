@@ -77,4 +77,4 @@ Remove white-space between angle brackets `> <`
 
 
 [npm-url]: https://www.npmjs.com/package/gulp-cshtml-minifier
-[npm-image]: https://badge.fury.io/js/gulp-minify-cshtml.svg
+[npm-image]: https://badge.fury.io/js/gulp-cshtml-minifier.svg
